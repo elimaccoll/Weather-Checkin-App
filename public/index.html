@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>The Weather Here</title>
+</head>
+<body>
+    <h1>The Weather Here</h1>
+    <a href="index.html">check in</a> | <a href="checkins.html">view checkins</a>
+    <div id="location-container">
+        Latitude: <span id="lat"></span>&deg;<br>
+        Longitude: <span id="lon"></span>&deg;<br>
+    </div>
+    <div id="information-container">
+        <p id="city_state"></p>
+        <p id="temperature">
+            <span id="temp"></span><br>
+            <span id="app-temp"></span>
+        </p>
+        <p id="air_quality_index"></p>
+        <div id="air_quality_container">
+            <h3>OpenAQ Air Quality Measurements</h3>
+        </div>
+    </div>
+    <script src="/scripts/location.js"></script>
+</body>
+</html>

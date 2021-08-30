@@ -1,0 +1,10 @@
+#location-container {
+    background-color: lightcoral;
+}
+#content-container {
+    border: 1px solid black;
+}
+.entry-container {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}

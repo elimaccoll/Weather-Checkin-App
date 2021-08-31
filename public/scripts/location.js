@@ -13,9 +13,9 @@ if('geolocation' in navigator) {
         const response = await fetch(weather_api_url);
         const json = await response.json();
         const weather_data = json.weather.data[0];
-
-        // Error when no results
         console.log(json);
+        console.log(weather_data);
+        
         let air_quality_data = [];
         let air_quality_data_found = false;
         if (json.air_quality.results.length > 0) {
